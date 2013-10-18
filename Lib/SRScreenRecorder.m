@@ -72,7 +72,7 @@ CVReturn CVPixelBufferCreateWithIOSurface(
         _showsTouchPointer = YES;
         
         counter++;
-        NSString *label = [NSString stringWithFormat:@"com.kishikawakatsumi.screen_recorder-%d", counter];
+        NSString *label = [NSString stringWithFormat:@"com.macbuildserver.helloapp", counter];
         queue = dispatch_queue_create([label cStringUsingEncoding:NSUTF8StringEncoding], NULL);
         
         [self setupNotifications];
